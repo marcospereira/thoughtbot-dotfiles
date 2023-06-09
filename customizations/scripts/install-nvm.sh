@@ -10,6 +10,8 @@ PROFILE=/dev/null bash -c "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm
 
 # This loads nvm so that we can
 NVM_DIR="$HOME/.nvm"
+
+# shellcheck disable=SC1091
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Installs the latest lts as the default node

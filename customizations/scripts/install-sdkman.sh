@@ -4,6 +4,7 @@
 curl -s "https://get.sdkman.io?rcupdate=false" | bash
 
 # Load it in the current shell to validate it was installed
+# shellcheck disable=SC1091
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # To debug the installation
