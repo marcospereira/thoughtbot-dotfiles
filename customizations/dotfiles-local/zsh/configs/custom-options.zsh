@@ -8,8 +8,8 @@
 #
 # History
 #
-SAVEHIST=1000000                # The maximum number of history events to save in the history file.
-HISTSIZE=1000000                # The maximum number of events stored in the internal history list
+export SAVEHIST=1000000         # The maximum number of history events to save in the history file.
+export HISTSIZE=1000000         # The maximum number of events stored in the internal history list
 
 setopt EXTENDED_HISTORY         # Add more data (timestamp and elapsed time of the command) to the history
 setopt INC_APPEND_HISTORY       # Write to the history file immediately, not when the shell exits.
