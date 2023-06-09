@@ -14,3 +14,31 @@ log/*.log
 rerun.txt
 tmp/**/*
 /tags
+
+#
+# Custom values
+#
+
+# Temporary files
+*.lixo
+*.todo
+
+# Scala
+.bsp
+metals.sbt
+.metals
+.bloop
+.metals
+.project
+target
+
+# Intellij
+idea
+.idea
+.idea_modules
+*.iml
+.history.idea
+
+# VSCode
+*.vsix
+.vscode
