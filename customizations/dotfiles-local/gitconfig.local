@@ -1,0 +1,33 @@
+[alias]
+	append = commit --amend --no-edit
+	last = log --format=fuller HEAD -1
+	first = !git show -s $(git rev-list --max-parents=0 HEAD)
+	st = status -u
+	di = diff -w --color-words
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	continue = !git add . && git rebase --continue
+	today = lg --since=midnight
+	main = checkout main
+	m = checkout main
+	search = log -p -G
+	issues = !gh issue list
+	upstream = remote add upstream
+	unstage = reset HEAD
+	cd = checkout
+	wip = commit -am wip
+	pub = push --set-upstream origin
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[user]
+	name = Marcos Pereira
+	email = marcos.silva@gmail.com
+	signingkey = F7EBB0FF122A3D87
+[github]
+	user = marcospereira
+[commit]
+	gpgsign = true
+	template = ~/.gitmessage
+[gpg]
+	program = gpg
