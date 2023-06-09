@@ -14,4 +14,4 @@ brew install --display-times yq
 brew install --display-times wget
 brew install --display-times httpie
 brew install --display-times geckodriver
-brew install --display-times --cask chromedriver
+brew install --cask chromedriver
