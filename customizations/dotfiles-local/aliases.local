@@ -1,0 +1,5 @@
+# Show human friendly numbers and colors
+alias ll="ls -asohG"
+alias df='df -h'
+alias du='du -h -d 2'
+alias grep='grep --color=auto'
