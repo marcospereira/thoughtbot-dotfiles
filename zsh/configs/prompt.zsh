@@ -1,3 +1,8 @@
+git_prompt_file="$(brew --prefix git)/etc/bash_completion.d/git-prompt.sh"
+
+# shellcheck disable=SC1090
+[[ -f "$git_prompt_file" ]] && . "$git_prompt_file"
+
 # modify the prompt to contain git branch name if applicable
 setopt promptsubst
 
