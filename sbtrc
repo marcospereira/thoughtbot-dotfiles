@@ -1,0 +1,4 @@
+alias cd=project
+alias ls=projects
+alias ct=;clean;test
+alias to=testOnly
