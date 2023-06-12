@@ -47,3 +47,5 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
