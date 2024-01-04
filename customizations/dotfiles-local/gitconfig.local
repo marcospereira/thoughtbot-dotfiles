@@ -16,6 +16,9 @@
 	cd = checkout
 	wip = commit -am wip
 	pub = push --set-upstream origin
+	lb = branch -vv
+	update = pull --rebase --prune
+	rb = branch -D
 [color]
 	diff = auto
 	status = auto
