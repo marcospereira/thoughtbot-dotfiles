@@ -10,10 +10,9 @@ brew install --display-times tree
 brew install --display-times watch
 brew install --display-times jq
 brew install --display-times yq
+brew install --display-times mise
 
 brew install --display-times wget
 brew install --display-times httpie
 brew install --display-times geckodriver
 brew install --display-times shellcheck
-
-brew install --cask chromedriver

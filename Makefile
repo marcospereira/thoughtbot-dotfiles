@@ -13,7 +13,6 @@ install-dev-tools:
 	@${PWD}/customizations/scripts/install-dev-tools.sh
 	@${PWD}/customizations/scripts/install-nvm.sh
 	@${PWD}/customizations/scripts/install-python.sh
-	@${PWD}/customizations/scripts/install-ruby.sh
 	@${PWD}/customizations/scripts/install-sdkman.sh
 
 copy-customizations:

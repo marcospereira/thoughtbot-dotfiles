@@ -5,7 +5,6 @@ brew update
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask firefox
-brew install --cask spotify
 brew install --cask vlc
 brew install --cask dropbox
 brew install --cask iterm2
@@ -15,8 +14,9 @@ brew install --cask the-unarchiver
 brew install --cask adobe-acrobat-reader
 brew install --cask intellij-idea
 brew install --cask visual-studio-code
-brew install --cask grammarly
-brew install --cask nordvpn
+brew install --cask grammarly-desktop
 brew install --cask rectangle
+brew install --cask protonvpn
+brew install --cask 1password
 
 brew install --cask gpg-suite
